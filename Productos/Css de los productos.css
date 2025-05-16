@@ -1,0 +1,68 @@
+html{
+    background-color: antiquewhite;
+}
+
+.Textosuperior{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 80px;
+    border: 3px solid gold;
+    max-width: 400px;
+    margin: 40px auto;
+}
+
+.Producto1{
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    gap: 20px; /* Espacio entre imagen y texto */
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.Producto1 img{
+    padding: 20px;
+    width: 300px;
+    border: 3px solid gold;
+    border-radius: 15px;
+}
+
+.descripcion{
+    text-align: center;
+    font-family: sans-serif;
+    border: 3px solid gold;
+    border-radius: 15px;
+}
+
+input{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.talla{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+    
+.container-text{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.Linea{
+    color: #f69858;
+}
+
+fieldset{
+    border-color: gold;
+}
+
+.nav-button {
+  background-color: #f69858; 
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 10px; 
+}
