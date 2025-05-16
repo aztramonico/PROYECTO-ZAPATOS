@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="css/CSS para Login.css">
+</head>
+<body>
+    <form id="registerForm">
+        <h3>Registrarse</h3>
+        <input type="text" placeholder="Nombres" required>
+        <input type="text" placeholder="Apellidos" required>
+        <input type="text" id="dni" name="dni" maxlength="8" placeholder="DNI" oninput="soloNumeros(this)" required>
+        <input type="email" placeholder="Correo" required>
+        <input type="password" placeholder="Contraseña" required>
+        <input type="text" id="telefono" name="telefono" maxlength="9" placeholder="Telefono" oninput="soloNumeros(this)">
+        
+        <input type="submit" class="btn" value="Registrar">
+    
+    <script src="scripts/script_login.js"></script>
+</body>
+</html>
